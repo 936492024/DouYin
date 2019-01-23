@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_margin="@dimen/mm22"
+        android:id="@+id/hell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试登录网络"
+        android:textSize="@dimen/mm40"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/xiazai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/mm22"
+        android:layout_marginTop="-20mm"
+        android:text="测试下载apk"
+        android:textSize="@dimen/mm40" />
+
+    <TextView
+        android:id="@+id/recycleview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/mm22"
+        android:text="recycleview列表"
+        android:textSize="@dimen/mm40" />
+
+    <TextView
+        android:id="@+id/permission"
+        android:text="权限申请"
+        android:textSize="@dimen/mm40"
+        android:layout_margin="@dimen/mm22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

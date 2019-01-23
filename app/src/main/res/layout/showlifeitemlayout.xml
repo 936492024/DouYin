@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iocn"
+        android:layout_margin="@dimen/mm20"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="@dimen/mm100"
+        android:layout_height="@dimen/mm100" />
+
+    <TextView
+        android:id="@+id/content"
+        android:text="內容"
+        android:layout_marginTop="@dimen/mm30"
+        android:layout_toRightOf="@+id/iocn"
+        android:textSize="@dimen/mm30"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
